@@ -403,19 +403,15 @@ def xyz():
     print(f"{GREEN}[W] {GREEN}WHATSAPP")
     print(f"{GREEN}[E] {GREEN}EXIT PROGRAM ")
     print(f"")
-    NAYAN = input['1']:
+    opt = input('[!]\033[1;33m SELECT OPTION: ')
+    if opt =='1':
         os.system('python bom1')
-    if NAYAN in ['2']:
-        os.system('python bom2')
-    elif NAYAN in ["F","f"]:
-        os.system("xdg-open https://www.facebook.com/N4Y4N.8R4ND.Y0UR.N3X7.D4D");xyz()
-    elif NAYAN in ["W","w"]:
-        os.system("xdg-open https://wa.me/+8801615298449")
-        xyz()    
-    elif NAYAN in ["E","e"]:
-       exit()
+    if opt =='2':
+    	os.system('python bom2')
+    if opt =='E':
+    	os.system('rm -rf GREEN.py')
     else:
-        print('\033[1;31mINCORECT OPTION!\033[1;31m')
+        print('\n\033[1;92mChoose valid option\033[0;97m')
         xyz()
 
 
