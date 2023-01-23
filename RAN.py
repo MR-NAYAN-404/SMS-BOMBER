@@ -411,7 +411,7 @@ def xyz():
     print(f"")
     NAYAN = input("[+] CHOOSE : ")
     if NAYAN in ["A","a"]:
-        os.system('python AR.py')
+        os.system('python bom1.py')
     if NAYAN in ["B","b"]:
         os.system('python sm.py')
     elif NAYAN in ["F","0f"]:
