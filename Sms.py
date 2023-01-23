@@ -1,1 +1,1 @@
-import sms1
+import sm
