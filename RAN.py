@@ -1,7 +1,4 @@
-import os
-import time
-os.system("xdg-open https://github.com/MR-NAYAN-404")
-time.sleep(1)
+
 
 import os
 
@@ -391,32 +388,28 @@ logo = """
 \033[0;92m║═══════════════════════════════════════════║\033[0;32m║\033[1;34m Y\033[0;92m ║
 \033[0;92m║➣\033[0;91m WHATSAPP   :    \033[0;92m      01615298449        ║\033[0;32m║\033[1;93m A\033[0;92m ║
 \033[0;92m║➣\033[0;93m GITHUB     :     \033[0;94m     MR-NAYAN-404       ║\033[0;92m║\033[1;92m N\033[0;92m ║
-\033[0;92m║➣\033[0;94m TOOLS      :      \033[0;93m    Py3 MARSHAL        ║\033[0;92m║ 😘║
+\033[0;92m║➣\033[0;94m TOOLS      :      \033[0;93m    SMS BOMBING        ║\033[0;92m║ 😘║
 \033[0;92m╚═══════════════════════════════════════════╝\033[0;92m╚═══╝
 """
 
-loop = 0
-Apk = []
-oks = []
-cps = []
+
 				
 def xyz():
     os.system("clear");print(logo)
-    print(f"{GREEN}[A] {GREEN}RANDOM UID  CRACK {RED}[7 DIGIT]")
-    print(f"{GREEN}[B] {GREEN}RANDOM UID  CRACK {RED}[8 DIGIT]")
+    print(f"{GREEN}[1] {GREEN}SMS BOMBING{RED}[SLOW OTP SEND]")
+    print(f"{GREEN}[2] {GREEN}SMS BOMBING{RED}[FIRST OTP SEND]")
     print(f"{GREEN}[+] {RED}CONTACT OWNER")
     print(f"{GREEN}[F] {YELLOW}FACEBOOK")
-    print(f"{GREEN}[W] {GREEN}WHATSAP")
+    print(f"{GREEN}[W] {GREEN}WHATSAPP")
     print(f"{GREEN}[E] {GREEN}EXIT PROGRAM ")
     print(f"")
-    NAYAN = input("[+] CHOOSE : ")
-    if NAYAN in ["A","a"]:
-        os.system('python bom1.py')
-    if NAYAN in ["B","b"]:
-        os.system('python sm.py')
-    elif NAYAN in ["F","0f"]:
-        os.system("xdg-open https://www.facebook.com/MR.NAYAN.45");xyz()
-    elif NAYAN in ["W","0w"]:
+    NAYAN = input("1","01"]:
+        os.system('python bom1')
+    if NAYAN in ["2","02"]:
+        os.system('python bom2')
+    elif NAYAN in ["F","f"]:
+        os.system("xdg-open https://www.facebook.com/N4Y4N.8R4ND.Y0UR.N3X7.D4D");xyz()
+    elif NAYAN in ["W","w"]:
         os.system("xdg-open https://wa.me/+8801615298449")
         xyz()    
     elif NAYAN in ["E","e"]:
