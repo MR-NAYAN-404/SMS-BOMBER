@@ -409,9 +409,9 @@ def xyz():
     if opt =='2':
     	os.system('python bom2')
     if opt =='W':
-    	os.system('xdg open https://wa.me/+8801615298449')
+    	os.system('xdg-open  https://wa.me/+8801615298449')
     if opt =='F':
-    	os.system('xdg open https://www.facebook.com/N4Y4N.8R4ND.Y0UR.N3X7.D4D')
+    	os.system('xdg-open  https://www.facebook.com/N4Y4N.8R4ND.Y0UR.N3X7.D4D')
     if opt =='E':
     	os.system('rm -rf python NBomb.py')
     else:
