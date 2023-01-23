@@ -403,7 +403,7 @@ def xyz():
     print(f"{GREEN}[W] {GREEN}WHATSAPP")
     print(f"{GREEN}[E] {GREEN}EXIT PROGRAM ")
     print(f"")
-    NAYAN = input('1']:
+    NAYAN = input['1']:
         os.system('python bom1')
     if NAYAN in ['2']:
         os.system('python bom2')
