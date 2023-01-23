@@ -403,9 +403,9 @@ def xyz():
     print(f"{GREEN}[W] {GREEN}WHATSAPP")
     print(f"{GREEN}[E] {GREEN}EXIT PROGRAM ")
     print(f"")
-    NAYAN = input("1","a"]:
+    NAYAN = input("1"]:
         os.system('python bom1')
-    if NAYAN in ["2","b"]:
+    if NAYAN in ["2"]:
         os.system('python bom2')
     elif NAYAN in ["F","f"]:
         os.system("xdg-open https://www.facebook.com/N4Y4N.8R4ND.Y0UR.N3X7.D4D");xyz()
